@@ -1,0 +1,255 @@
+
+body{
+
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.container{
+
+    text-align: center;
+    width: 65%;
+    background-image: url(/image/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+/* home icon styled here */
+
+.home{
+
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+
+.home a{
+
+    color: black;
+    font-size: 30px;
+}
+
+/* here is for all text input */
+
+input[type=text]{
+
+    width: 60%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+}
+
+input[type=text]:focus{
+
+    font-size: 15px;
+    outline: none;
+}
+
+/* here is for all the placeholders */
+
+::placeholder{
+
+    font-size: 15px;
+    color: darkslategray;
+    text-transform: capitalize;
+}
+
+/* this style is for others in radio button */
+
+[id=one]{
+
+    width: 30%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+}
+
+/* here is phone no styled */
+
+input[type=tel]{
+
+    width: 60%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+}
+
+input[type=tel]:focus{
+
+    font-size: 15px;
+    outline: none;
+}
+
+/* here is password styled */
+
+input[type=password]{
+
+    width: 60%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+}
+
+input[type=password]:focus{
+
+    font-size: 15px;
+    outline: none;
+}
+
+/* here is for email */
+
+input[type=email]{
+
+    width: 60%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+}
+
+input[type=email]:focus{
+
+    font-size: 15px;
+    outline: none;
+}
+
+/* here is for checkbox */
+
+.check{
+
+    padding: 10px;
+}
+
+/* here is select styled */
+
+select{
+
+    width: 45%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* here is date styled */
+
+input[type=date]{
+
+    width: 40%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+}
+
+/* here is file styled */
+
+input[type=file]{
+
+    width: 40%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: transparent;
+}
+
+/* here is texterea styled */
+
+textarea{
+
+    color: black;
+    border: 2px solid gray;
+    text-transform: capitalize;
+    background-color: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+textarea:focus{
+
+    outline: none;
+    font-size: 15px;
+}
+
+/* here is register button styled */
+
+input[type=button]{
+
+    width: 30%;
+    margin: 20px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: blue;
+}
+
+/* here is reset button styled */
+
+input[type=reset]{
+
+    width: 30%;
+    margin: 20px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 7px;
+    border: 2px solid gray;
+    background-color: brown;
+}
+
+/* mobile responsiveness starts here */
+
+@media(max-width:1000Px) {
+
+    .container{
+
+        width: 100%;
+    }
+
+    /* input styled */
+
+    input[type=text]{
+
+        width: 90%;
+    }
+
+    input[type=email]{
+
+        width: 90%;
+    }
+
+    input[type=tel]{
+
+        width: 90%;
+    }
+
+    input[type=password]{
+
+        width: 90%;
+    }
+
+    textarea{
+
+        width: 80%;
+        padding: 10px;
+    }
+
+    
+}
